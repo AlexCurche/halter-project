@@ -1,62 +1,78 @@
 body {
-    text-align: center;
-    color: rgb(212, 80, 27);
-    background-color: rgb(5, 5, 5);
-}
-
-footer {
-    vertical-align: bottom;
-}
-
-a {
-    color: yellow;
-}
-
-h1 {
-font-family: old typewriter;
-font-size: 72px;
-}
-
-.gothic {
-    font-family: old english text MT;
-    font-size: 32px;
-    background-color: rgb(85, 81, 62)
-}
-
-.table {
-    border: 2px solid red;
-    border-collapse: collapse;
-    width: 70%;
-    height: 80px;
-    text-align: center;
-}
-
-.tablerow {
-    border: 1px solid red;
-    border-collapse: collapse;
-}
-
-.tabledata {
-    border: 1px solid red;
-    border-collapse: collapse;
+    background-color: rgb(32, 30, 30);
 }
 
 .header {
-    background-color: rgb(26, 44, 26);
-    border: 5px solid rgb(68, 112, 47)
+    font-family: old typewriter;
+    color: rgb(165, 82, 82);
+    text-align: center;
+    font-size: 50px;
+    padding: 10px;
+    margin: 50px;
+    background-color: rgb(26, 23, 23);
 }
 
-.article1 {
-    background-color: rgb(37, 37, 66);
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 40px;
-    width: 400px;
-    display: inline-block;
-    align-items: center;
-    margin: 30px;
+.outer-nav {
     padding: 10px;
+    margin: 50px;
+    text-align: center;
+    background-color: rgb(37, 36, 36);
+}
+
+.inner-nav {
+    display: inline-block;
+    padding: 10px;
+    margin: 50px;
+    background-color: rgb(43, 42, 42);
+}
+
+.navigation {
+    font-family: old typewriter;
+    color: rgb(214, 129, 59); 
+    text-decoration: none;
+    padding: 20px;
+}
+
+h2 {
+    font-family: old typewriter;
+    color: rgb(165, 82, 82);
+    text-align: center;
+}
+
+article {
+    background-color: rgb(37, 36, 36);
+    padding: 10px;
+    margin: 50px;
+}
+
+h3 {
+    font-family: old typewriter;
+    color: rgb(165, 82, 82);
+    text-align: center;
+}
+
+img {
+    width: 500px;
+    margin: 50px;
+    display: block;
+    margin: auto;
 }
 
 footer {
-    margin: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(214, 129, 59); 
+}
+
+.outer-footer {
+    padding: 10px;
+    text-align: center;
+}
+
+.inner-footer {
+    display: inline-block;
+    padding: 50px;
+}
+
+.mail {
+    color: rgb(214, 129, 59); 
 }
