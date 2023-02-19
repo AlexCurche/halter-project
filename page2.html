@@ -8,58 +8,36 @@
     <title>HALTER band</title>
 </head>
 <body> 
-    <header>
+    <header class="header">
         <h1>HALTER</h1>
-        <a href="html\index.html"><img src="img\3540362570_photo.jpg" alt="Band photo" width="500"/></a>
     </header>
-    <nav>
-        <a class="navigation" href="index.html">Main</a>
-        <a class="navigation" href="page3.html">Discography</a>
-        <a class="navigation" href="page2.html">Contact</a>
-   </nav>
-    <h2>Registration</h2>
-    <form name="signup" action="#" method="post">
-<div>
-    <label>Введите логин</label>
-    <input type="text" name="username" placeholder="До 32 символов">
+    <div class="outer-nav">
+        <div class="inner-nav">
+           <nav>
+            <a class="navigation" href="index.html">Main</a>
+            <a class="navigation" href="page3.html">Discography</a>
+            <a class="navigation" href="page2.html">Contact</a>
+           </nav>
+        </div>
+    </div><br><br><br>
+    <h2>Contact us:</h2>
+  <form name="Contact" action="#" method="post">
+    <div class="form1">
+        <label>Enter your name</label>
+        <input type="text" name="username"/> 
+    </div>
+    <div class="form1">
+        <label>Enter your E-mail</label>
+        <input type="email" name="email"/> 
+    </div>
+    <div class="form1">
+        <textarea 
+        placeholder="Write your message"></textarea>
+    </div>
+    <div class="form1">
+    <input type="submit" name="submit" 
+    value="Submit"/>
 </div>
-<div>
-    <label>Введите E-mail</label>
-    <input type="email" name="email" placeholder="Латиницей">
-</div>
-<div>
-    <label>Введите пароль</label>
-    <input type="password" name="password">
-</div>
-<div>
-    <label>Укажите пол</label>
-   <input type="radio" name="sex" value="0">Мужской
-   <input type="radio" name="sex" value="1">Женский
-</div>
-<div>
-    <label>С правилами ознакомлен</label>
-   <input type="checkbox" name="rules">
-</div>
-<div>
-    <label>Загрузите аватар</label>
-   <input type="file" name="avatar">
-</div>
-<div>
-    <label>Год рождения</label>
-   <select name="year">
-    <option value="1973">1973</option>
-    <option value="1983">1983</option>
-    <option value="1993">1993</option>
-   </select>
-</div>
-<input type="submit" name="signup" value="Зарегицца">
-<div>
-<textarea placeholder="Жалуйтесь"></textarea>
-</div>
-    </form>
-    <footer>℗ Alex Curche ⓒ Halter 
-        <br><a href="https://mail.yandex.ru/?uid=12946397#inbox" 
-        title="e-mail address">curche2@yandex.ru</a>
-    </footer>
+</form>
 </body>
 </html>

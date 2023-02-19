@@ -9,6 +9,7 @@ body {
     font-size: 50px;
     padding: 10px;
     margin: 50px;
+    margin-bottom: -100px;
     background-color: rgb(26, 23, 23);
 }
 
@@ -16,13 +17,16 @@ body {
     padding: 10px;
     margin: 50px;
     text-align: center;
-    background-color: rgb(37, 36, 36);
+    background-color: rgb(26, 23, 23);
+    margin-bottom: -50px;
 }
 
 .inner-nav {
     display: inline-block;
     padding: 10px;
-    margin: 50px;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 10px;
     background-color: rgb(43, 42, 42);
 }
 
@@ -30,7 +34,8 @@ body {
     font-family: old typewriter;
     color: rgb(214, 129, 59); 
     text-decoration: none;
-    padding: 20px;
+    padding: 10px;
+    border: 2px solid #130e0e ;
 }
 
 h2 {
@@ -39,10 +44,28 @@ h2 {
     text-align: center;
 }
 
-article {
+.article1 {
     background-color: rgb(37, 36, 36);
     padding: 10px;
     margin: 50px;
+    margin-bottom: -50px;
+}
+
+.article2 {
+    background-color: rgb(37, 36, 36);
+    padding: 10px;
+    margin: 50px;
+    padding-bottom: 50px;
+}
+
+.article3 {
+    font-family: old typewriter;
+    color: rgb(165, 82, 82);
+    text-align: center;
+    background-color: rgb(37, 36, 36);
+    padding: 10px;
+    margin: 50px;
+    margin-bottom: 20px;
 }
 
 h3 {
@@ -63,16 +86,36 @@ footer {
     color: rgb(214, 129, 59); 
 }
 
-.outer-footer {
-    padding: 10px;
+.outerfooter {
     text-align: center;
 }
 
-.inner-footer {
+.innerfooter {
     display: inline-block;
-    padding: 50px;
 }
 
 .mail {
     color: rgb(214, 129, 59); 
+}
+
+#newalbum {
+    margin: 30px;
+}
+
+#firstalbum {
+    margin: 30px;
+}
+
+#secondalbum {
+    margin: 30px;  
+}
+
+form {
+    font-family: old typewriter;
+    color: rgb(165, 82, 82);
+}
+
+.form1 {
+padding: 10px;
+padding-left: 100px;
 }
