@@ -4,51 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css\index.css">
+    <link rel="stylesheet" href="css\styles.css">
     <title>HALTER band</title>
 </head>
 <body> 
     <header class="header">
-        <h1>HALTER</h1>
+        <img src="img\Logo.png" alt="HALTER Band's Logo">
     </header>
-    <div class="outer-nav">
-        <div class="inner-nav">
-           <nav>
-            <a class="navigation" href="index.html">Main</a>
-            <a class="navigation" href="discography.html">Discography</a>
-            <a class="navigation" href="contact.html">Contact</a>
-           </nav>
-        </div>
-    </div><br><br><br>
-    <h2>Contact us:</h2>
-  <form class="outerfooter" name="Contact" action="#" method="post">
-    <div>
+    <nav>
+        <a class="navmain" href="index.html">Main</a>
+        <a class="navdiscs" href="discography.html">Discography</a>
+        <a class="navcontact" href="contact.html">Contact</a>
+    </nav>
+    <form name="Contact" action="#" method="post">
+        <h1>Contact us:</h1>
+      <div class="contactform">
         <label>Enter your name</label><br>
         <input type="text" name="username" 
-        placeholder="Write your name"/> 
-    </div><br>
-    <div>
+        placeholder="Write your name"/><br><br>
         <label>Enter your E-mail</label><br>
         <input type="email" name="email" 
-        placeholder="Write your e-mail"/> 
-    </div><br>
-    <div>
-        <textarea 
-        placeholder="Write your message"></textarea>
-    </div>
-    <div>
-    <input type="submit" class="button" name="submit" 
-    value="Send"/>
-</div>
-</form>
-<div class="outerfooter">
-    <div class="innerfooter">
-      <footer>℗ Alex Curche ⓒ Halter 
-        <br><a class="mail"
-        href="https://mail.yandex.ru/?uid=12946397#inbox" 
-        title="e-mail address">curche2@yandex.ru</a>
-      </footer>
-    </div>
-</div>
+        placeholder="Write your e-mail"/><br><br>
+        <label>Write your message</label><br>
+        <textarea placeholder="Write your message"></textarea><br><br>
+        <input type="submit" class="button" name="submit" 
+        value="Send"/><br>
+      </div>
+    </form>
+    <footer><br>
+    ℗ⓒ 2023 Alex Curche
+    </footer>
 </body>
 </html>
