@@ -1,5 +1,6 @@
 body {
     background-color: rgb(32, 30, 30);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .header {
@@ -24,27 +25,23 @@ nav {
     padding-bottom: 20px;
 }
 .navmain {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(214, 129, 59); 
     text-decoration: none;
     margin-right: 50px;
 }
 
 .navdiscs {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(214, 129, 59); 
     text-decoration: none;
 }
 
 .navcontact {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(214, 129, 59); 
     text-decoration: none;
     margin-left: 50px;
 }
 
 h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 900;
     color: rgb(167, 150, 4);
     text-align: center;
@@ -58,7 +55,6 @@ h1 {
 }
 
 h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 900;
     color: rgb(167, 150, 4);
     text-align: center;
@@ -76,9 +72,8 @@ h2 {
     background-color: rgb(37, 36, 36);
     text-align: center;
     margin-top: 20px;
-   padding-top: 20px;
+    padding-top: 20px;
     margin: auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(214, 129, 59);
     font-weight: 900;
 }
@@ -104,7 +99,6 @@ h2 {
     text-align: center;
     margin-top: 20px;
     margin: auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(214, 129, 59);
     font-weight: 800;
     font-size: 15px;
@@ -118,7 +112,6 @@ h2 {
     text-align: center;
     margin-top: 20px;
     margin: auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(214, 129, 59);
     font-weight: 800;
     font-size: 15px;
@@ -144,7 +137,6 @@ footer {
     width: 800px;
     height: 50px;
     margin: auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(167, 150, 4);;
     font-weight: 700;
     text-align: center; 
@@ -154,7 +146,6 @@ footer {
 form {
     width: 800px;
     background-color: rgb(37, 36, 36);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(165, 82, 82);
     margin: auto;
     padding-bottom: 30px;
@@ -181,7 +172,7 @@ textarea {
 
 .button {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border-radius:20px;
+    border-radius: 20px;
     background:#161515;
     color: rgb(165, 82, 82);
     font-size:18px;
