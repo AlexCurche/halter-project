@@ -67,6 +67,12 @@ h2 {
     width: 800px;
 }
 
+article > p {
+    font-weight: 400;
+    color: rgb(167, 150, 4);
+    text-align: center;
+}
+
 .thirdalbum {
     width: 800px;
     background-color: rgb(37, 36, 36);
@@ -137,7 +143,7 @@ footer {
     width: 800px;
     height: 50px;
     margin: auto;
-    color: rgb(167, 150, 4);;
+    color: rgb(167, 150, 4);
     font-weight: 700;
     text-align: center; 
     background-color: rgb(26, 23, 23);
