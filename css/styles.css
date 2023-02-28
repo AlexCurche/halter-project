@@ -30,7 +30,7 @@ header > .container {
     padding: 40px 10px;
 }
 
-.navigation nav {
+.menu {
     display: flex;
     justify-content: space-around;
     margin: 20px 300px 0 300px;
