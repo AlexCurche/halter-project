@@ -1,0 +1,65 @@
+.thirdalbum {
+    width: 800px;
+    background-color: rgb(37, 36, 36);
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    margin: auto;
+    color: rgb(214, 129, 59);
+    font-weight: 900;
+}
+
+.thirdalbumimage {
+    width: 400px;
+    margin: 50px;
+    display: block;
+    margin: auto;
+}
+
+.twoalbums {
+    width: 800px;
+    height: 400px;
+    margin-top: 20px;
+    margin: auto;
+}
+
+.firstalbum {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(37, 36, 36);
+    text-align: center;
+    margin-top: 20px;
+    margin: auto;
+    color: rgb(214, 129, 59);
+    font-weight: 800;
+    font-size: 15px;
+    float: left;
+}
+
+.secondalbum {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(37, 36, 36);
+    text-align: center;
+    margin-top: 20px;
+    margin: auto;
+    color: rgb(214, 129, 59);
+    font-weight: 800;
+    font-size: 15px;
+    float: right;
+}
+
+.firstalbumimage {
+    width: 300px;
+}
+
+.secondalbumimage {
+    width: 300px;
+}
+
+img {
+    width: 500px;
+    margin: 50px;
+    display: block;
+    margin: auto;
+}

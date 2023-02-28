@@ -73,65 +73,6 @@ article > p {
     text-align: center;
 }
 
-.thirdalbum {
-    width: 800px;
-    background-color: rgb(37, 36, 36);
-    text-align: center;
-    margin-top: 20px;
-    padding-top: 20px;
-    margin: auto;
-    color: rgb(214, 129, 59);
-    font-weight: 900;
-}
-
-.thirdalbumimage {
-    width: 400px;
-    margin: 50px;
-    display: block;
-    margin: auto;
-}
-
-.twoalbums {
-    width: 800px;
-    height: 400px;
-    margin-top: 20px;
-    margin: auto;
-}
-
-.firstalbum {
-    width: 400px;
-    height: 400px;
-    background-color: rgb(37, 36, 36);
-    text-align: center;
-    margin-top: 20px;
-    margin: auto;
-    color: rgb(214, 129, 59);
-    font-weight: 800;
-    font-size: 15px;
-    float: left;
-}
-
-.secondalbum {
-    width: 400px;
-    height: 400px;
-    background-color: rgb(37, 36, 36);
-    text-align: center;
-    margin-top: 20px;
-    margin: auto;
-    color: rgb(214, 129, 59);
-    font-weight: 800;
-    font-size: 15px;
-    float: right;
-}
-
-.firstalbumimage {
-    width: 300px;
-}
-
-.secondalbumimage {
-    width: 300px;
-}
-
 img {
     width: 500px;
     margin: 50px;
@@ -148,39 +89,3 @@ footer {
     text-align: center; 
     background-color: rgb(26, 23, 23);
 }
-
-form {
-    width: 800px;
-    background-color: rgb(37, 36, 36);
-    color: rgb(165, 82, 82);
-    margin: auto;
-    padding-bottom: 30px;
-    text-align: center;
-}
-
-.contactform {
-    width: 400px;
-    display: block;
-    margin: auto;
-}
-
-textarea {
-    width: 90%;
-    height: 150px; 
-    resize: none;
-}
-
-::placeholder {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(170, 165, 165);
-    font-size: 12px; 
-}
-
-.button {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border-radius: 20px;
-    background:#161515;
-    color: rgb(165, 82, 82);
-    font-size:18px;
-    cursor:pointer;
-} 
