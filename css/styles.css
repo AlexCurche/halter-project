@@ -1,44 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: oldtypewriter;
+    font-weight: normal;
+    font-style: normal;
+    src: url(../fonts/Old-Typewriter2.0.ttf);
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(32, 29, 29);
+}
+
+.d-flex {
+    display: block;
+    align-items: center;
+}
+
+header > .container {
+    padding: 40px 10px;
+}
+
+.navigation nav {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 300px 0 300px;
+    background-color: rgb(51, 35, 35);
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(182, 121, 29);
+    margin: 20px 0;
+}
+
+.menu a:hover,
+.menu a.active {
+    color: rgb(228, 222, 172); 
+    font-weight: 600;
+    border-bottom: 3px solid rgb(228, 222, 172);
+    padding-bottom: 5px;
+}
+
 body {
-    background-color: rgb(32, 30, 30);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.header {
-    background-color: rgb(26, 23, 23);
-    width: 800px;
-    height: 100px;
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 0px;
-    padding-bottom: 30px;
-    text-align: center;
-}
-
-nav {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: rgb(214, 129, 59); 
-    background-color: rgb(26, 23, 23);
-    font-size: x-large;
-    width: 800px;
-    margin: auto;
-    text-align: center;
-    padding-bottom: 20px;
-}
-.navmain {
-    color: rgb(214, 129, 59); 
-    text-decoration: none;
-    margin-right: 50px;
-}
-
-.navdiscs {
-    color: rgb(214, 129, 59); 
-    text-decoration: none;
-}
-
-.navcontact {
-    color: rgb(214, 129, 59); 
-    text-decoration: none;
-    margin-left: 50px;
+    font-family: oldtypewriter;
+    width: 100%;
+    background-color: rgb(39, 36, 36);
 }
 
 h1 {
@@ -81,7 +97,8 @@ img {
 }
 
 footer {
-    width: 800px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 1200px;
     height: 50px;
     margin: auto;
     color: rgb(167, 150, 4);
