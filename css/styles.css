@@ -99,10 +99,51 @@ img {
 footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     max-width: 1200px;
-    height: 50px;
-    margin: auto;
-    color: rgb(167, 150, 4);
-    font-weight: 700;
-    text-align: center; 
-    background-color: rgb(26, 23, 23);
+    margin: 20px auto;
+    padding: 5px;
+    background-color: rgb(32, 29, 29);
+}
+
+.footermenu {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 300px 0 300px;
+    padding-top: 15px;
+    background-color: rgb(51, 35, 35);
+}
+
+.footermenu a {
+    text-decoration: none;
+    color: rgb(182, 121, 29);
+    font-size: small;
+}
+
+.footermenu a:hover,
+.footermenu a.active {
+    color: rgb(228, 222, 172); 
+    font-weight: 600;
+}
+
+.partners {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 300px;
+    padding: 20px;
+    background-color: rgb(51, 35, 35);
+}
+
+.partners a img {
+    max-width: 100px;
+    background-color: black;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 300px 20px;
+    padding-bottom: 15px;
+    background-color: rgb(51, 35, 35);
+    color: rgb(182, 121, 29);
+    font-size: small;
 }
