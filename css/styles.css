@@ -24,17 +24,28 @@ body {
 header {
     max-width: 1200px;
     margin: 20px auto 0px auto;
-    padding: 16px 0;
+    align-items: center;
 }
 
-header img {
+.logo {
     width: 800px;
+    display: flex;
+    animation-name: logo-animation;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+}
+
+@keyframes logo-animation {
+    0% {width: 800px;}
+    50% {width: 850px;}
+    100% {width: 800px;}
 }
 
 .menu {
     display: flex;
     justify-content: space-around;
-    margin: 10px 300px 0 300px;
+    margin: 20px 300px 0 300px;
     background-color: rgba(51, 35, 35, 0.4);
     box-shadow: 0 0 10px 8px rgb(51 35 35 / 40%);
 }
@@ -47,12 +58,34 @@ header img {
     margin: 20px 0;
 }
 
-.menu a:hover,
+.menu a:hover {
+    color: rgb(243, 243, 236); 
+    text-shadow: 2px 2px 2px black;
+    padding-bottom: 3px;
+    animation-name: menu-shaking;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+}
+
 .menu a.active {
     color: rgb(243, 243, 236); 
     text-shadow: 2px 2px 2px black;
     padding-bottom: 3px;
 }
+
+@keyframes menu-shaking {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
 
 h1 {
     font-weight: 900;
