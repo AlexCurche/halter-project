@@ -8,58 +8,50 @@
     <link rel="stylesheet" href="css\contact.css">
     <title>HALTER band</title>
 </head>
-<body> 
-    <header class="container-fluid">
-        <div class="container d-flex">
-            <img src="img\Logo.png" alt="HALTER Band's logo made with old typewriter font">
-            <nav class="menu">
-                <a href="index.html">News</a>
-                <a href="discography.html">Discography</a>
-                <a class="active" href="contact.html">Contact</a>
-             </nav>
-           </div>
-        </div>
-     </header>
+<body background="img/background.png">
+   <header>
+      <img class="logo" src="img/Logo.png" alt="HALTER Band's logo">
+      <nav class="menu">
+         <a href="index.html">News</a>
+         <a href="discography.html">Discography</a>
+         <a class="active" href="contact.html">Contact</a>
+      </nav>
+   </header>
     <form name="Contact" action="#" method="post">
         <h1>Contact us:</h1>
-      <div class="contactform">
-        <label>Enter your name</label><br><br>
+      <div class="contact-form">
+        <label>Enter your name</label>
         <input type="text" name="username" 
-        placeholder="Write your name"/><br><br>
-        <label>Enter your E-mail</label><br><br>
+        placeholder="Write your name"/>
+        <label>Enter your E-mail</label>
         <input type="email" name="email" 
-        placeholder="Write your e-mail"/><br><br>
-        <label>Write your message</label><br><br>
-        <textarea placeholder="Write your message"></textarea><br><br>
+        placeholder="Write your e-mail"/>
+        <label>Write your message</label>
+        <textarea placeholder="Write your message"></textarea>
         <input type="submit" class="button" name="submit" 
-        value="Send"/><br>
+        value="Send"/>
       </div>
     </form>
     <footer>
-      <nav>
-         <div class="footermenu">
-            <a href="index.html">News</a>
-            <a href="discography.html">Discography</a>
-            <a class="active" href="contact.html">Contact</a>
-         </div>
+      <nav class="footer-menu">
+         <a href="index.html">News</a>
+         <a href="discography.html">Discography</a>
+         <a class="active" href="contact.html">Contact</a>
       </nav>
-      <article title="Our partners">
-         <div class="partners">
-            <a href="https://mfl-records.bandcamp.com/" target="_blank">
-               <img src="img\MFL1-Logo.png" alt="">
-            </a>
+      <section class="partners" title="Our partners">
+         <a href="https://mfl-records.bandcamp.com/" target="_blank">
+            <img src="img\MFL1-Logo.png" alt="MFL logo">
          </a>
          <a href="https://www.wroth-emitter.org/" target="_blank">
-            <img src="img\wrothemitter-logo.jpg" alt="">
+            <img src="img\wrothemitter-logo.jpg" alt="Wroth Emitter logo">
          </a>
-            <a href="https://frozenlightlabel.bandcamp.com/" target="_blank">
-               <img src="img\Frozenlight-Logo.jpg" alt="">
-            </a>
-         </div>
-      </article>
-         <div class="copyright">
-            &#xa9; 2023 Alex Curche
-         </div>
+         <a href="https://frozenlightlabel.bandcamp.com/" target="_blank">
+            <img src="img\Frozenlight-Logo.jpg" alt="Ffrozen Light logo">
+         </a>
+      </section>
+      <div class="copyright">
+         &#xa9; 2023 Alex Curche
+      </div>
    </footer>
 </body>
 </html>
