@@ -5,7 +5,7 @@
 }
 
 @font-face {
-    font-family: oldtypewriter;
+    font-family: oldtypewriter; 
     font-weight: normal;
     font-style: normal;
     src: url(../fonts/Old-Typewriter2.0.ttf);
@@ -17,7 +17,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-color: rgb(44 44 44);
-    font-family: oldtypewriter;
+    font-family: oldtypewriter, "Calisto MT", serif;
     width: 100%;
 }
 
