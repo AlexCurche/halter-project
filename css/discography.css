@@ -37,11 +37,14 @@ a {
     width: 400px;
     height: auto;
     margin: auto;
+    float: left;
+}
+
+.first-album p {
     font-weight: 600;
     color: rgb(5, 5, 5); 
     text-shadow: 1px 1px 1px white;
     text-align: center;
-    float: left;
 }
 
 .second-album {

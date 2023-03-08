@@ -100,6 +100,13 @@ h1 {
     width: 800px;
 }
 
+.our-next-dates p {
+    text-align: center;
+    color: rgb(8, 8, 8);
+    text-shadow: 1px 1px 1px white;
+    padding: 30px;
+}
+
 img {
     width: 600px;
     display: block;
