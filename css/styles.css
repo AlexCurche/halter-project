@@ -38,7 +38,7 @@ header {
 
 @keyframes logo-animation {
     0% {width: 800px;}
-    50% {width: 850px;}
+    50% {width: 820px;}
     100% {width: 800px;}
 }
 
@@ -98,14 +98,6 @@ h1 {
 .our-next-dates {
     margin: auto;
     width: 800px;
-}
-
-article > p {
-    font-weight: 600;
-    color: rgb(5, 5, 5); 
-    text-shadow: 1px 1px 1px white;
-    text-align: center;
-    padding: 30px;
 }
 
 img {

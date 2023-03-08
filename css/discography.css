@@ -1,10 +1,6 @@
 .third-album {
     width: 800px;
     margin: auto;
-    font-weight: 600;
-    color: rgb(5, 5, 5); 
-    text-shadow: 1px 1px 1px white;
-    text-align: center;
 }
 
 .third-album-image {
@@ -15,15 +11,31 @@
     padding-top: 30px;
 }
 
-.two-albums {
+a {
+   text-decoration: none;
+}
+
+.third-album p {
+    font-weight: 600;
+    color: rgb(5, 5, 5); 
+    text-shadow: 1px 1px 1px white;
+    text-align: center;
+    padding: 30px;
+}
+
+.other-albums {
     width: 800px;
-    height: 370px;
+    height: 350px;
     margin: auto;
+}
+
+.other-albums p {
+    padding-top: 20px;
 }
 
 .first-album {
     width: 400px;
-    height: 390px;
+    height: auto;
     margin: auto;
     font-weight: 600;
     color: rgb(5, 5, 5); 
@@ -34,7 +46,7 @@
 
 .second-album {
     width: 400px;
-    height: 390px;
+    height: auto;
     margin: auto;
     font-weight: 600;
     color: rgb(5, 5, 5); 
@@ -45,10 +57,40 @@
 
 .first-album-image {
     width: 300px;
-    padding-bottom: 30px;
 }
 
 .second-album-image {
     width: 300px;
-    padding-bottom: 30px;
+}
+
+.singles {
+width: 800px;
+display: flex;
+justify-content: space-between;
+text-align: center;
+margin: auto;
+padding-top: 12px;
+}
+
+.singles p {
+    padding-top: 12px;
+    font-weight: 600;
+    font-size: 15px;
+    color: rgb(5, 5, 5); 
+    text-shadow: 1px 1px 1px white;
+    text-align: center;
+}
+
+.seasons img {
+    width: auto;
+    height: 200px;
+}
+
+.cobweb img {
+    width: 200px;
+}
+
+.post-factum img {
+    width: auto;
+    height: 200px;
 }

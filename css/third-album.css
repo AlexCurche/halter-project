@@ -1,0 +1,21 @@
+.third-album {
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    justify-content: space-around;
+color: #fdfbfb;
+text-shadow: 2px 2px 2px #080808;
+}
+
+.third-album-image {
+    width: 600px;
+    display: flex;
+}
+
+.third-album-image img {
+    width: 500px;
+}
+
+.third-album-info {
+    width: 500px; 
+}
