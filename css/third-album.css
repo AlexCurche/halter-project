@@ -44,3 +44,14 @@ h1 {
     padding: 8px;
     border-radius: 13%;
 }
+
+.sisyphean {
+    display: flex;
+    position: relative;
+    float: right;
+}
+
+.sisyphean audio {
+    height: 18px;
+    width: 277px;
+}

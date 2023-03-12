@@ -1,0 +1,20 @@
+.video {
+display: flex;
+justify-content: space-around;
+max-width: 1000px;
+margin: auto;
+padding: 30px 0 30px 0;
+}
+
+.video-item {
+width: 330px;
+}
+
+.youtube-video iframe{
+    height: 173.89px;
+}
+
+.video p {
+    text-shadow: 1px 1px 1px white;
+    padding-top: 10px;
+}

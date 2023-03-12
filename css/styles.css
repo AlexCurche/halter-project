@@ -36,11 +36,11 @@ header {
     animation-delay: 1s;
 }
 
-@keyframes logo-animation {
+/* @keyframes logo-animation {
     0% {width: 800px;}
-    50% {width: 820px;}
+    50% {width: 810px;}
     100% {width: 800px;}
-}
+} */
 
 .menu {
     display: flex;

@@ -49,3 +49,16 @@ h1 {
     text-align: center;
     padding-top: 30px;
 }
+
+.grey-blooded {
+    display: flex;
+    position: relative;
+    float: right;
+    top: 38px;
+}
+
+.grey-blooded audio {
+    height: 18px;
+    width: 237px;
+}
+

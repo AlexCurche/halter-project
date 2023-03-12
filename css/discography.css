@@ -58,6 +58,13 @@ a {
     float: right;
 }
 
+.second-album p {
+    font-weight: 600;
+    color: rgb(5, 5, 5); 
+    text-shadow: 1px 1px 1px white;
+    text-align: center;
+}
+
 .first-album-image {
     width: 300px;
 }
