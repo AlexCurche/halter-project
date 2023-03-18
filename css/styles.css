@@ -23,29 +23,38 @@ body {
 
 header {
     max-width: 1200px;
-    margin: 20px auto 0px auto;
+    margin: 20px auto 0 auto;
     align-items: center;
+}
+
+.animated-logo {
+width: 1000px;
+height: 250px;
+margin-left: 100px;
 }
 
 .logo {
     width: 800px;
     display: flex;
+    position: absolute;
+    top: 46px;
+    left: 260px;
     animation-name: logo-animation;
     animation-duration: 5s;
     animation-iteration-count: 1;
     animation-delay: 1s;
 }
 
-/* @keyframes logo-animation {
+@keyframes logo-animation {
     0% {width: 800px;}
     50% {width: 810px;}
     100% {width: 800px;}
-} */
+}
 
 .menu {
     display: flex;
     justify-content: space-around;
-    margin: 20px 300px 0 300px;
+    margin: 0 300px 0 300px;
     background-color: rgba(51, 35, 35, 0.4);
     box-shadow: 0 0 10px 8px rgb(51 35 35 / 40%);
 }
