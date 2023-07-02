@@ -36,7 +36,6 @@ margin-left: 100px;
 .logo {
     width: 800px;
     display: flex;
-    position: absolute;
     top: 46px;
     left: 260px;
     animation-name: logo-animation;
@@ -104,12 +103,12 @@ h1 {
     padding-top: 40px;
 }
 
-.our-next-dates {
+.our-latest-news {
     margin: auto;
     width: 800px;
 }
 
-.our-next-dates p {
+.our-latest-news p {
     text-align: center;
     color: rgb(8, 8, 8);
     text-shadow: 1px 1px 1px white;
@@ -123,14 +122,14 @@ img {
     margin: auto;
 }
 
-.tickets {
+.pre-order {
     display: flex;
     justify-content: center;
     margin-top: 20px;
     text-decoration: none;
 }
 
-.tickets p {
+.pre-order p {
     color: white;
     background-color: black;
     text-decoration: none;
@@ -138,7 +137,7 @@ img {
     border-radius: 13%;
 }
 
-.tickets a {
+.pre-order a {
     text-decoration: none;
 }
 
