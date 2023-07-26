@@ -23,6 +23,10 @@ a {
     padding: 30px;
 }
 
+.container {
+    display: grid; 
+}
+
 .other-albums {
     width: 800px;
     height: 350px;
